@@ -1,0 +1,110 @@
+/* Mengatur tampilan halaman */
+body {
+    font-family: Arial, sans-serif;
+    background: #f4f8ff;
+    margin: 20px;
+}
+
+/* Judul halaman */
+h1 {
+    color: #1a56b0;
+    text-align: center;
+}
+
+/* Tampilan form */
+form {
+    background: #ffffff;
+    border: 1px solid #ccd;
+    padding: 10px;
+    margin-bottom: 10px;
+    box-shadow: 0 2px 5px #ccc;
+}
+
+/* Class untuk setiap baris form */
+.baris {
+    margin-bottom: 18px;
+    font-size: 18px;
+}
+
+/* Mengatur input teks dan email */
+input[type="text"],
+input[type="email"] {
+    width: 200px;
+    max-width: 90%;
+    padding: 8px;
+    font-size: 15px;
+    border: 1px solid #aaa;
+    border-radius: 3px;
+}
+
+/* Mengatur radio dan checkbox */
+input[type="radio"],
+input[type="checkbox"] {
+    width: 16px;
+    height: 16px;
+}
+
+/* Mengatur pilihan prodi dan textarea */
+select,
+textarea {
+    padding: 8px;
+    font-size: 15px;
+    border: 1px solid #aaa;
+    border-radius: 3px;
+}
+
+/* Mengatur tombol */
+button {
+    background: #1a56b0;
+    color: white;
+    padding: 10px 18px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* Warna tombol saat disentuh */
+button:hover {
+    background: #123d80;
+}
+
+/* Mengatur tabel mahasiswa */
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+/* Bagian judul tabel */
+th {
+    background: #1a56b0;
+    color: white;
+    padding: 10px;
+    border: 1px solid #ccd;
+}
+
+/* Bagian isi tabel */
+td {
+    border: 1px solid #ccd;
+    padding: 10px;
+    text-align: center;
+}
+
+/* Warna baris tabel selang-seling */
+tbody tr:nth-child(even) {
+    background: #e6eefb;
+}
+
+tbody tr:nth-child(odd) {
+    background: #ffffff;
+}
+
+/* Bagian jumlah mahasiswa */
+tfoot {
+    background: #d4e3ff;
+    font-weight: bold;
+    text-align: center;
+}
+
+tfoot td {
+    padding: 12px;
+}

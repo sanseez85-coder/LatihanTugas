@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Data Mahasiswa</title>
+
+    <!-- Menghubungkan file CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1 id="judul">Data Mahasiswa</h1>
+
+    <!-- Form data mahasiswa -->
+    <form action="#" method="post">
+
+        <div class="baris">
+            Nama:
+            <input type="text" name="nama" placeholder="Masukkan nama">
+        </div>
+
+        <div class="baris">
+            Email:
+            <input type="email" name="email" placeholder="Masukkan email">
+        </div>
+
+        <div class="baris">
+            Jenis kelamin:
+            <input type="radio" name="jk" value="L"> Laki-laki
+            <input type="radio" name="jk" value="P"> Perempuan
+        </div>
+
+        <div class="baris">
+            Hobi:
+            <input type="checkbox" name="hobi" value="Membaca"> game
+            <input type="checkbox" name="hobi" value="Olahraga"> nonton film
+        </div>
+
+        <div class="baris">
+            Program studi:
+            <select name="prodi">
+                <option>Teknologi Informasi</option>
+                <option>Peternakan</option>
+                <option>PBSI</option>
+                <option>PGSD</option>
+                <option>Hukum</option>
+            </select>
+        </div>
+
+        <div class="baris">
+            Alamat:
+            <textarea name="alamat" rows="3"
+                placeholder="Masukkan alamat"></textarea>
+        </div>
+
+        <button type="submit">Kirim</button>
+        <button type="reset">Reset</button>
+
+    </form>
+
+    <!-- Tabel data 5 mahasiswa -->
+
+    <table>
+        <thead>
+            <tr>
+                <th>No</th>
+                <th>NIM</th>
+                <th>Nama</th>
+                <th>Prodi</th>
+                <th>IPK</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>2301001</td>
+                <td>Fahri</td>
+                <td>Peternakan</td>
+                <td>3.50</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>2301002</td>
+                <td>Paman</td>
+                <td>Teknologi Informasi</td>
+                <td>3.75</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>2301003</td>
+                <td>Andi</td>
+                <td>PGSD</td>
+                <td>3.60</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>2301004</td>
+                <td>Siti</td>
+                <td>PBSI</td>
+                <td>3.80</td>
+            </tr>
+            <tr>
+                <td>5</td>
+                <td>2301005</td>
+                <td>Budi</td>
+                <td>Hukum</td>
+                <td>3.45</td>
+            </tr>
+        </tbody>
+    </table>
+
+</body>
+</html>
